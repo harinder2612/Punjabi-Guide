@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.harinder.pg.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Numbers"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:background="#562348"
+        android:textColor="#ffffff"
+        android:onClick="numbers"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Family Members"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:background="#562896"
+        android:textColor="#ffffff"
+        android:onClick="family"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="colors"
+        android:text="Colors"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:background="#544348"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="phrases"
+        android:text="Phrases"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:background="#892348"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
