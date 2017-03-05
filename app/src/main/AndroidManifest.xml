@@ -15,10 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Numbers" />
-        <activity android:name=".FamilyMembers" />
-        <activity android:name=".Colors" />
-        <activity android:name=".Phrases"></activity>
+        <activity android:name=".Numbers"
+            android:label="Numbers"/>
+        <activity android:name=".FamilyMembers"
+            android:label="Family Members"/>
+        <activity android:name=".Colors"
+            android:label="Colors"/>
+        <activity android:name=".Phrases"
+            android:label="Phrases"></activity>
     </application>
 
 </manifest>

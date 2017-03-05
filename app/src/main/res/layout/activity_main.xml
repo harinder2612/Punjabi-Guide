@@ -4,56 +4,55 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   android:orientation="vertical"
+    android:orientation="vertical"
     tools:context="com.harinder.pg.MainActivity">
 
     <TextView
+        android:id="@+id/num"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Numbers"
-        android:padding="16dp"
-        android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:background="#562348"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Numbers"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
-        android:onClick="numbers"
-        />
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/fam"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Family Members"
-        android:padding="16dp"
-        android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:background="#562896"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Family Members"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
-        android:onClick="family"/>
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/col"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:onClick="colors"
-        android:text="Colors"
-        android:padding="16dp"
-        android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:background="#544348"
-        android:textColor="#ffffff"/>
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Colors"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/phr"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:onClick="phrases"
-        android:text="Phrases"
-        android:padding="16dp"
-        android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:background="#892348"
-        android:textColor="#ffffff"/>
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Phrases"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
 </LinearLayout>
