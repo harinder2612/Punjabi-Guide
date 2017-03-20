@@ -15,14 +15,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".Numbers"
-            android:label="Numbers"/>
+            android:label="Numbers">
+        <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".MainActivity"/>
+        </activity>
+
         <activity android:name=".FamilyMembers"
-            android:label="Family Members"/>
+            android:label="Family Members">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
         <activity android:name=".Colors"
-            android:label="Colors"/>
+            android:label="Colors">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
         <activity android:name=".Phrases"
-            android:label="Phrases"></activity>
+            android:label="Phrases">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

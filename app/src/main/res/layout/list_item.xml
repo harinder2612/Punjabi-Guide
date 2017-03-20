@@ -14,12 +14,14 @@
         android:id="@+id/refimg" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingLeft="16dp"
         android:background="#562348"
-        android:id="@+id/text_container">
+        android:id="@+id/text_container"
+        >
 
     <TextView
         android:layout_width="match_parent"
@@ -43,6 +45,23 @@
         android:textColor="@android:color/white"
         android:gravity="top"
         />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:background="#562348"
+        android:id="@+id/playbt_layout"
+        >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/playbt"
+            android:layout_gravity="center"
+            >
+            </ImageView>
 
     </LinearLayout>
 </LinearLayout>

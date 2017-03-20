@@ -7,52 +7,75 @@
     android:orientation="vertical"
     tools:context="com.harinder.pg.MainActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colornumbers">
     <TextView
         android:id="@+id/num"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#562348"
+        android:background="?android:attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:padding="16dp"
         android:text="Numbers"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
         android:textStyle="bold" />
+    </FrameLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorfamily">
     <TextView
         android:id="@+id/fam"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#562896"
+        android:background="?android:attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:padding="16dp"
         android:text="Family Members"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
         android:textStyle="bold" />
+    </FrameLayout>
 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorcolor">
     <TextView
         android:id="@+id/col"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#544348"
+        android:background="?android:attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:padding="16dp"
         android:text="Colors"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
         android:textStyle="bold" />
+    </FrameLayout>
 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorphrases">
     <TextView
         android:id="@+id/phr"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#892348"
+        android:background="?android:attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:padding="16dp"
         android:text="Phrases"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#ffffff"
         android:textStyle="bold" />
+    </FrameLayout>
+
 
 </LinearLayout>

@@ -21,7 +21,7 @@ public class FamilyMembers extends AppCompatActivity {
 
         arr.add(new word("Family Members","Zero"));
         arr.add(new word("੧ - ikk","One"));
-        arr.add(new word("੨ - do","Two"));
+        arr.add(new word("੨ - do","two"));
         arr.add(new word("੩ - tinn","Three"));
         arr.add(new word("੪ - chā","Four"));
         arr.add(new word("੫ - punj","Five"));
